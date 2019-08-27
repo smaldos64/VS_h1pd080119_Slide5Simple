@@ -18,6 +18,7 @@ namespace Slide5Simple
             try
             {
                 SQLServerName = "sql.itcn.dk\\TCAA";
+                
                 // Build connection string
                 Builder = new SqlConnectionStringBuilder();
                 Builder.DataSource = "PCM15715";   // update me
